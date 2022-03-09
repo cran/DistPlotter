@@ -1,0 +1,25 @@
+year <- sub("-.*", "", meta$Date)
+version <- paste("R package version", meta$Version)
+url <- "https://CRAN.R-project.org/package=DistPlotter"
+
+text_version <- paste0(
+  "Christopher J. Casement, Grant Innerst, & Melissa Innerst (",
+  year,
+  "). DistPlotter: A Graphical User Interface for Plotting Common Univariate Distributions.",
+  version,
+  ".",
+  url
+)
+
+citHeader("To cite DistPlotter in publications use:")
+
+citEntry(
+  entry    = "Manual",
+  title    = "{DistPlotter}: A Graphical User Interface for Plotting Common Univariate Distributions",
+  author   = personList(as.person("Christopher J. Casement"),
+              as.person("Grant Innerst"), as.person("Melissa Innerst")),
+  year     = year,
+  note     = version,
+  url      = url,
+  textVersion = text_version
+)
