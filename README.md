@@ -4,9 +4,8 @@
 A graphical user interface for plotting common univariate distributions
 
 <!-- start badges -->
-<!-- start badges -->
 
-![](https://img.shields.io/badge/release-v0.0.1-blue?style=flat) [![CRAN
+![](https://img.shields.io/badge/release-v0.0.2-blue?style=flat) [![CRAN
 status](https://www.r-pkg.org/badges/version/DistPlotter)](https://CRAN.R-project.org/package=DistPlotter)
 <!-- end badges -->
 
@@ -43,7 +42,7 @@ To install the package from GitHub, run the following code in `R`:
 
 ``` r
 install.packages("remotes")  # installs the remotes package for accessing the install_github() function
-remotes::install_github("ccasement/DistPlotter")  # installs the DistPlotter package
+remotes::install_github("shinyeducationapps/DistPlotter")  # installs the DistPlotter package
 ```
 
 ## Usage

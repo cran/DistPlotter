@@ -1,12 +1,12 @@
-033e1f28f724fd069858cac9f4dbd8f2 *DESCRIPTION
+b0bc6ae68b3eb64036cf2b5dbc3a5cdf *DESCRIPTION
 7c94bd0f87028597bdd008fcdf80d3b6 *LICENSE
 a5910ff926679b0a00d81bea32fe07f1 *NAMESPACE
-69d6261fb3d57b7ddcbf34262701703b *NEWS.md
-5e13fcb1321252d64ce17529d19e37c6 *R/DistPlotter-package.R
+9c51fc359845b1629ee511eace0da1fc *NEWS.md
+fe83df540d7ec970cfef09fcdd0d6508 *R/DistPlotter-package.R
 d6ba90a2d3d2ce39de529ecddb4af9e8 *R/runDistPlotterApp.R
-3f2917138d0fc0e9460d246192036f89 *README.md
+fbff03e265ecf4d78845c4e8edcb657d *README.md
 33caac2e85a450b9241c89de97bb19bc *inst/CITATION
-af3f7736da72f5eefd1b96c7277e7c56 *inst/DistPlotter/server.R
+ed832e363173e40eeb436a982468a15d *inst/DistPlotter/server.R
 01b9a6be0f4120476065381bc07fba5a *inst/DistPlotter/ui.R
 7c31e130abf2eaefc7eda5e26c7ebda0 *inst/DistPlotter/www/Betas.png
 116fd5895c6d37eb0c5187914261f90d *inst/DistPlotter/www/Bimodal.png
@@ -31,5 +31,5 @@ b29960b63e0cfda25fae3219c5f4b7ef *inst/DistPlotter/www/Normal_Left.png
 cef5eb8d09326c6d2d4f117ca4f59f4d *inst/DistPlotter/www/Pvalue.png
 5cf49afadaa63ac0fa72b934107f2223 *inst/DistPlotter/www/Skewed_Left.png
 20a7f23e0371f0cfda59a1d321b3b227 *inst/DistPlotter/www/Unimodal_Normal.png
-eb77fafb6a19f5fdcfd0afcd659b3a22 *man/DistPlotter-package.Rd
+69e185d4622f85884f7f11fc63aee959 *man/DistPlotter-package.Rd
 837b1938315e67e9142e7e8f0790dd25 *man/runDistPlotterApp.Rd

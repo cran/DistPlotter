@@ -36,8 +36,8 @@
 #'
 #' @details Package: DistPlotter \cr
 #' Type: Package \cr
-#' Version: 0.0.1 \cr
-#' Date: 2022-02-21 \cr
+#' Version: 0.0.2 \cr
+#' Date: 2022-03-09 \cr
 #' Depends: R (>= 3.5.0) \cr
 #' Imports: colourpicker, dplyr, DT, extraDistr, ggplot2, rio, scales, shiny,
 #' shinyalert, shinyalert, shinyBS, shinyjs, shinyWidgets, stringi, stringr

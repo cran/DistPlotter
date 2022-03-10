@@ -1019,7 +1019,7 @@ shinyServer(function(session, input, output){
 
                 plot_common <- plot_common +
                   scale_x_continuous(
-                    oob = oob_keep(),
+                    oob = oob_keep,
                     breaks = c(
                       x_min_common,    # force x min to appear w/ repeat
                       seq(
@@ -1042,7 +1042,7 @@ shinyServer(function(session, input, output){
 
               plot_common <- plot_common +
                 scale_x_continuous(
-                  oob = oob_keep(),
+                  oob = oob_keep,
                   limits = c(x_min_common, x_max_common),
                   expand = c(0, 0)
                   #expand = expansion(mult = c(0, 0.04))
@@ -1052,7 +1052,7 @@ shinyServer(function(session, input, output){
 
               plot_common <- plot_common +
                 scale_x_continuous(
-                  oob = oob_keep(),
+                  oob = oob_keep,
                   limits = c(x_min_common, NA),
                   expand = c(0, 0)
                   #expand = expansion(mult = c(0, 0.04))
@@ -1064,7 +1064,7 @@ shinyServer(function(session, input, output){
 
           plot_common <- plot_common +
             scale_x_continuous(
-              oob = oob_keep(),
+              oob = oob_keep,
               limits = c(as.numeric(input$x_min_common), NA),
               expand = c(0, 0)
               #expand = expansion(mult = c(0, 0.04))
@@ -1074,7 +1074,7 @@ shinyServer(function(session, input, output){
 
           plot_common <- plot_common +
             scale_x_continuous(
-              oob = oob_keep(),
+              oob = oob_keep,
               limits = c(NA, as.numeric(input$x_max_common)),
               expand = c(0, 0)
               #expand = expansion(mult = c(0, 0.04))
@@ -1083,7 +1083,7 @@ shinyServer(function(session, input, output){
         } else {
 
           plot_common <- plot_common +
-            scale_x_continuous(oob = oob_keep(), expand = c(0, 0))
+            scale_x_continuous(oob = oob_keep, expand = c(0, 0))
         }
 
 
@@ -1670,7 +1670,7 @@ shinyServer(function(session, input, output){
 
                   plot_common <- plot_common +
                     scale_x_continuous(
-                      oob = oob_keep(),
+                      oob = oob_keep,
                       breaks = c(
                         x_min_common,    # force x min to appear w/ repeat
                         seq(
@@ -1693,7 +1693,7 @@ shinyServer(function(session, input, output){
 
                 plot_common <- plot_common +
                   scale_x_continuous(
-                    oob = oob_keep(),
+                    oob = oob_keep,
                     limits = c(x_min_common, x_max_common),
                     expand = c(0, 0)
                     #expand = expansion(mult = c(0, 0.04))
@@ -1703,7 +1703,7 @@ shinyServer(function(session, input, output){
 
                 plot_common <- plot_common +
                   scale_x_continuous(
-                    oob = oob_keep(),
+                    oob = oob_keep,
                     limits = c(x_min_common, NA),
                     expand = c(0, 0)
                     #expand = expansion(mult = c(0, 0.04))
@@ -1715,7 +1715,7 @@ shinyServer(function(session, input, output){
 
             plot_common <- plot_common +
               scale_x_continuous(
-                oob = oob_keep(),
+                oob = oob_keep,
                 limits = c(as.numeric(input$x_min_common), NA),
                 expand = c(0, 0)
                 #expand = expansion(mult = c(0, 0.04))
@@ -1725,7 +1725,7 @@ shinyServer(function(session, input, output){
 
             plot_common <- plot_common +
               scale_x_continuous(
-                oob = oob_keep(),
+                oob = oob_keep,
                 limits = c(NA, as.numeric(input$x_max_common)),
                 expand = c(0, 0)
                 #expand = expansion(mult = c(0, 0.04))
@@ -1734,7 +1734,7 @@ shinyServer(function(session, input, output){
           } else {
 
             plot_common <- plot_common +
-              scale_x_continuous(oob = oob_keep(), expand = c(0, 0))
+              scale_x_continuous(oob = oob_keep, expand = c(0, 0))
           }
 
 
@@ -4004,7 +4004,7 @@ shinyServer(function(session, input, output){
 
             plot_mult <- plot_mult +
               scale_x_continuous(
-                oob = oob_keep(),
+                oob = oob_keep,
                 breaks = c(
                   x_min_mult,    # force x min to appear w/ repeat
                   seq(
@@ -4027,7 +4027,7 @@ shinyServer(function(session, input, output){
 
           plot_mult <- plot_mult +
             scale_x_continuous(
-              oob = oob_keep(),
+              oob = oob_keep,
               limits = c(x_min_mult, x_max_mult),
               expand = c(0, 0)
               #expand = expansion(mult = c(0, 0.04))
@@ -4037,7 +4037,7 @@ shinyServer(function(session, input, output){
 
           plot_mult <- plot_mult +
             scale_x_continuous(
-              oob = oob_keep(),
+              oob = oob_keep,
               limits = c(x_min_mult, NA),
               expand = c(0, 0)
               #expand = expansion(mult = c(0, 0.04))
@@ -4049,7 +4049,7 @@ shinyServer(function(session, input, output){
 
       plot_mult <- plot_mult +
         scale_x_continuous(
-          oob = oob_keep(),
+          oob = oob_keep,
           limits = c(as.numeric(input$x_min_mult), max(x_max)),
           expand = c(0, 0)
           #expand = expansion(mult = c(0, 0.04))
@@ -4059,7 +4059,7 @@ shinyServer(function(session, input, output){
 
       plot_mult <- plot_mult +
         scale_x_continuous(
-          oob = oob_keep(),
+          oob = oob_keep,
           limits = c(min(x_min), as.numeric(input$x_max_mult)),
           expand = c(0, 0)
           #expand = expansion(mult = c(0, 0.04))
@@ -4069,7 +4069,7 @@ shinyServer(function(session, input, output){
 
       plot_mult <- plot_mult +
         scale_x_continuous(
-          oob = oob_keep(),
+          oob = oob_keep,
           limits = c(min(x_min), max(x_max)),
           expand = c(0, 0)
         )
@@ -5088,7 +5088,7 @@ shinyServer(function(session, input, output){
 
               plot_user <- plot_user +
                 scale_x_continuous(
-                  oob = oob_keep(),
+                  oob = oob_keep,
                   breaks = c(
                     x_min_user,    # force x min to appear w/ repeat
                     seq(
@@ -5111,7 +5111,7 @@ shinyServer(function(session, input, output){
 
             plot_user <- plot_user +
               scale_x_continuous(
-                oob = oob_keep(),
+                oob = oob_keep,
                 limits = c(x_min_user, x_max_user),
                 expand = c(0, 0)
                 #expand = expansion(mult = c(0, 0.04))
@@ -5121,7 +5121,7 @@ shinyServer(function(session, input, output){
 
             plot_user <- plot_user +
               scale_x_continuous(
-                oob = oob_keep(),
+                oob = oob_keep,
                 limits = c(x_min_user, NA),
                 expand = c(0, 0)
                 #expand = expansion(mult = c(0, 0.04))
@@ -5133,7 +5133,7 @@ shinyServer(function(session, input, output){
 
         plot_user <- plot_user +
           scale_x_continuous(
-            oob = oob_keep(),
+            oob = oob_keep,
             limits = c(as.numeric(input$x_min_user), NA),
             expand = c(0, 0)
             #expand = expansion(mult = c(0, 0.04))
@@ -5143,7 +5143,7 @@ shinyServer(function(session, input, output){
 
         plot_user <- plot_user +
           scale_x_continuous(
-            oob = oob_keep(),
+            oob = oob_keep,
             limits = c(NA, as.numeric(input$x_max_user)),
             expand = c(0, 0)
             #expand = expansion(mult = c(0, 0.04))
@@ -5152,7 +5152,7 @@ shinyServer(function(session, input, output){
       } else {
 
         plot_user <- plot_user +
-          scale_x_continuous(oob = oob_keep(), expand = c(0, 0))
+          scale_x_continuous(oob = oob_keep, expand = c(0, 0))
       }
 
 

@@ -2,7 +2,7 @@ Type: Package
 Package: DistPlotter
 Title: A Graphical User Interface for Plotting Common Univariate
         Distributions
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: c(person("Christopher", "Casement", email = "casementc@gmail.com", 
                role = c("cre", "aut")),
              person("Grant", "Innerst", role = "aut"),
@@ -24,10 +24,10 @@ Encoding: UTF-8
 Language: en-US
 RoxygenNote: 7.1.2
 NeedsCompilation: no
-Packaged: 2022-03-05 16:02:15 UTC; ccasement
+Packaged: 2022-03-10 21:43:13 UTC; ccasement
 Author: Christopher Casement [cre, aut],
   Grant Innerst [aut],
   Melissa Innerst [aut]
 Maintainer: Christopher Casement <casementc@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-03-09 07:50:06 UTC
+Date/Publication: 2022-03-10 22:10:17 UTC
